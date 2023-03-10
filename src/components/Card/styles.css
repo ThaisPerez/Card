@@ -10,22 +10,47 @@
   border-radius: 8px;
   padding: 10px;
   gap: 10px; 
+  justify-content:space-between;
+  font-family: 'Poppins', sans-serif;
   
+} .Card .Header{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.Card .Header img{
+  /* display: flex; */
+  width: 100%;
 }
 
 .Card span {
  color: #5B5B5B;
  font-size: 16px;
+ font-weight: 500;
+ padding:   10px 0 ;
 }
 .Card p{
   color: #858585;
   font-size: 12px;
   line-height: 22px;
+  padding: 10px 0;
+  
 }
 .Card .Footer{
 display: flex;
 align-items: center;
 justify-content: flex-end;
+padding: 10px;
+}
+.Content{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: self-start;
+height: 100%;
+width: auto;
+gap: 10px;
 }
 .Card .Footer button{
 font-size: 12px; 
@@ -33,6 +58,10 @@ color: #FFFFFF;
 background: #B7B6FF;
 border: 2px solid #AEACFF;
 border-radius: 4px;
-
-
+display: flex;
+align-items: center;
+width: 140px;
+height: 32px;
+justify-content: space-between;
+padding: 0px 10px ;
 }
